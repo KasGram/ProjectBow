@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Arrow_Black', 'Arrow_Blue', 'Arrow_Red', 'Arrow_White', 'Arrow_Yellow']
+
+roboflow:
+  workspace: projectbow
+  project: projectbow
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/projectbow/projectbow/dataset/1
